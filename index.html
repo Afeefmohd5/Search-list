@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter-product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="filter-container">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search">
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="category-container">
+            <div class="category-btn"  data-category="all">All Products</div>
+            <div class="category-btn"  data-category="Electronic">Electronic</div>
+            <div class="category-btn"  data-category="Clothing">Clothing</div>
+            <div class="category-btn" data-category="Homegarden">Homegarden</div>
+        </div>
+    </div>
+    <div id="product-list">
+        <div class="product-item" data-category="Electronic">
+            <h3>SmartPhone</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, illo odit.</p>
+        </div>
+        <div class="product-item" data-category="Clothing">
+            <h3>T-shirt</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, illo odit.</p>
+        </div>
+        <div class="product-item" data-category="Homegarden">
+            <h3>Coffee maker</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, illo odit.</p>
+        </div>
+        <div class="product-item" data-category="Electronic">
+            <h3>Laptop</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, illo odit.</p>
+        </div>
+        <div class="product-item" data-category="Clothing">
+            <h3>Hoodie</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, illo odit.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
